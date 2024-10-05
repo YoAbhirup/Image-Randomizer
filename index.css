@@ -1,0 +1,17 @@
+body{
+    background-color: black;
+    height: 100vh;
+    margin: 0%;
+    overflow-x:hidden;
+}
+
+.image{
+    position: absolute;
+}
+
+.image[data-status="inactive"]{
+    display: none;
+}
+.image[data-status="active"]{
+    display: block;
+}
